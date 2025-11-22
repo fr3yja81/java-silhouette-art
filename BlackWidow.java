@@ -2,17 +2,17 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class NightDrive extends JFrame implements ActionListener {
+public class BlackWidow extends JFrame implements ActionListener {
 
     private JButton boton1;
     private JPanel hojita;
     public static void main(String[] args) {
 
-        NightDrive frame = new NightDrive();
+        BlackWidow frame = new BlackWidow();
         frame.setSize(600, 750);
         frame.createGUI();
         frame.setVisible(true);
-        frame.setTitle("Night Drive");
+        frame.setTitle("Black Widow");
     }
 
     private void createGUI() {
@@ -26,7 +26,7 @@ public class NightDrive extends JFrame implements ActionListener {
         hojita.setBackground(Color.white);
         window.add(hojita);
 
-        boton1 = new JButton("Oprimir");
+        boton1 = new JButton("Mostrar");
         window.add(boton1);
         boton1.addActionListener(this);
     }
@@ -35,7 +35,7 @@ public class NightDrive extends JFrame implements ActionListener {
 
     public void actionPerformed(ActionEvent event) {
         Graphics lapiz = hojita.getGraphics();
-        
+
         // rosa oscuro
         lapiz.setColor(new Color(220, 68, 81));
         lapiz.fillRect(82 * escala, 8 * escala, 1 * escala, 1 * escala);
@@ -726,5 +726,17 @@ public class NightDrive extends JFrame implements ActionListener {
         lapiz.fillRect(62 * escala, 97 * escala, 1 * escala, 2 * escala);
         lapiz.fillRect(63 * escala, 102 * escala, 1 * escala, 1 * escala);
         lapiz.fillRect(62 * escala, 102 * escala, 1 * escala, 2 * escala);
+
+
+        /* cuadricula */
+        lapiz.setColor(new Color(40, 40, 40));
+        // horizontal 
+        for (int x = 1; x <= 95; x++) {
+            lapiz.drawLine(x * escala, 0, x * escala, 138 * escala);
+        }
+        // vertical
+        for (int y = 1; y <= 137; y++) {
+            lapiz.drawLine(0, y * escala, 96 * escala, y * escala);
+        }
     }
 }
