@@ -38,6 +38,7 @@ public class NightDrive extends JFrame implements ActionListener {
         
         // rosa oscuro
         lapiz.setColor(new Color(220, 68, 81));
+        lapiz.fillRect(82 * escala, 8 * escala, 1 * escala, 1 * escala);
         lapiz.fillRect(18 * escala, 23 * escala, 8 * escala, 6 * escala);
         lapiz.fillRect(19 * escala, 20 * escala, 32 * escala, 4 * escala);
         lapiz.fillRect(20 * escala, 17 * escala, 52 * escala, 3 * escala);
@@ -57,9 +58,121 @@ public class NightDrive extends JFrame implements ActionListener {
         lapiz.fillRect(41 * escala, 1 * escala, 33 * escala, 1 * escala);
         lapiz.fillRect(46 * escala, 0 * escala, 25 * escala, 1 * escala);
 
+        lapiz.fillRect(50 * escala, 103 * escala, 30 * escala, 1 * escala);
+        lapiz.fillRect(50 * escala, 104 * escala, 31 * escala, 1 * escala);
+        lapiz.fillRect(50 * escala, 105 * escala, 32 * escala, 1 * escala);
+        lapiz.fillRect(50 * escala, 106 * escala, 33 * escala, 1 * escala);
+        lapiz.fillRect(50 * escala, 107 * escala, 33 * escala, 1 * escala);
+        lapiz.fillRect(0 * escala, 108 * escala, 84 * escala, 8 * escala);
+        lapiz.fillRect(0 * escala, 109 * escala, 85 * escala, 1 * escala);
+        lapiz.fillRect(0 * escala, 110 * escala, 86 * escala, 1 * escala);
+        lapiz.fillRect(0 * escala, 111 * escala, 87 * escala, 1 * escala);
+        lapiz.fillRect(0 * escala, 112 * escala, 88 * escala, 1 * escala);
+        lapiz.fillRect(0 * escala, 113 * escala, 89 * escala, 1 * escala);
+        lapiz.fillRect(0 * escala, 114 * escala, 90 * escala, 1 * escala);
+        lapiz.fillRect(0 * escala, 115 * escala, 91 * escala, 1 * escala);
+        lapiz.fillRect(1 * escala, 116 * escala, 90 * escala, 1 * escala);
+        lapiz.fillRect(3 * escala, 117 * escala, 89 * escala, 1 * escala);
+        lapiz.fillRect(4 * escala, 118 * escala, 88 * escala, 1 * escala);
+        lapiz.fillRect(6 * escala, 119 * escala, 87 * escala, 1 * escala);
+        lapiz.fillRect(7 * escala, 120 * escala, 87 * escala, 1 * escala);
+        lapiz.fillRect(9 * escala, 121 * escala, 85 * escala, 1 * escala);
+        lapiz.fillRect(11 * escala, 122 * escala, 83 * escala, 1 * escala);
+        lapiz.fillRect(12 * escala, 123 * escala, 82 * escala, 1 * escala);
+        lapiz.fillRect(18 * escala, 124 * escala, 100 * escala, 1 * escala);
+        lapiz.fillRect(25 * escala, 125 * escala, 100 * escala, 1 * escala);
+        lapiz.fillRect(28 * escala, 126 * escala, 100 * escala, 1 * escala);
+        lapiz.fillRect(31 * escala, 127 * escala, 100 * escala, 1 * escala);
+        lapiz.fillRect(35 * escala, 128 * escala, 100 * escala, 1 * escala);
+        lapiz.fillRect(37 * escala, 129 * escala, 100 * escala, 1 * escala);
+        lapiz.fillRect(42 * escala, 130 * escala, 100 * escala, 1 * escala);
+        lapiz.fillRect(45 * escala, 131 * escala, 100 * escala, 1 * escala);
+        lapiz.fillRect(48 * escala, 132 * escala, 45 * escala, 1 * escala);
+        lapiz.fillRect(50 * escala, 133 * escala, 41 * escala, 1 * escala);
+        lapiz.fillRect(54 * escala, 134 * escala, 37 * escala, 1 * escala);
+        lapiz.fillRect(57 * escala, 135 * escala, 33 * escala, 1 * escala);
+        lapiz.fillRect(61 * escala, 136 * escala, 27 * escala, 2 * escala);
 
         // rosa medio
         lapiz.setColor(new Color(217, 126, 129));
+        lapiz.fillRect(18 * escala, 29 * escala, 65 * escala, 10 * escala);
+        lapiz.fillRect(19 * escala, 28 * escala, 65 * escala, 1 * escala);
+        lapiz.fillRect(20 * escala, 27 * escala, 64 * escala, 1 * escala);
+        lapiz.fillRect(22 * escala, 26 * escala, 60 * escala, 1 * escala);
+        lapiz.fillRect(23 * escala, 25 * escala, 60 * escala, 1 * escala);
+        lapiz.fillRect(26 * escala, 24 * escala, 56 * escala, 1 * escala);
+        lapiz.fillRect(51 * escala, 23 * escala, 30 * escala, 1 * escala);
+        lapiz.fillRect(50 * escala, 22 * escala, 30 * escala, 1 * escala);
+        lapiz.fillRect(48 * escala, 21 * escala, 30 * escala, 1 * escala);
+        lapiz.fillRect(46 * escala, 20 * escala, 30 * escala, 1 * escala);
+        lapiz.fillRect(44 * escala, 19 * escala, 8 * escala, 1 * escala);
+        lapiz.fillRect(37 * escala, 18 * escala, 13 * escala, 1 * escala);
+        lapiz.fillRect(65 * escala, 19 * escala, 18 * escala, 6 * escala);
+        lapiz.fillRect(68 * escala, 18 * escala, 15 * escala, 1 * escala);
+        lapiz.fillRect(74 * escala, 15 * escala, 10 * escala, 1 * escala);
+        lapiz.fillRect(74 * escala, 16 * escala, 9 * escala, 5 * escala);
+        lapiz.fillRect(78 * escala, 13 * escala, 6 * escala, 3 * escala);
+        lapiz.fillRect(79 * escala, 12 * escala, 5 * escala, 1 * escala);
+        lapiz.fillRect(80 * escala, 11 * escala, 4 * escala, 1 * escala);
+        lapiz.fillRect(81 * escala, 10 * escala, 3 * escala, 1 * escala);
+        lapiz.fillRect(82 * escala, 26 * escala, 1 * escala, 1 * escala);
+
+        lapiz.fillRect(18 * escala, 87 * escala, 10 * escala, 1 * escala);
+        lapiz.fillRect(15 * escala, 88 * escala, 10 * escala, 1 * escala);
+        lapiz.fillRect(14 * escala, 89 * escala, 10 * escala, 1 * escala);
+        lapiz.fillRect(13 * escala, 90 * escala, 10 * escala, 3 * escala);
+        lapiz.fillRect(10 * escala, 92 * escala, 10 * escala, 2 * escala);
+        lapiz.fillRect(9 * escala, 94 * escala, 10 * escala, 1 * escala);
+        lapiz.fillRect(8 * escala, 95 * escala, 10 * escala, 1 * escala);
+        lapiz.fillRect(7 * escala, 96 * escala, 10 * escala, 1 * escala);
+        lapiz.fillRect(6 * escala, 97 * escala, 10 * escala, 4 * escala);
+        lapiz.fillRect(4 * escala, 100 * escala, 20 * escala, 2 * escala);
+        lapiz.fillRect(3 * escala, 102 * escala, 10 * escala, 1 * escala);
+        lapiz.fillRect(2 * escala, 103 * escala, 10 * escala, 1 * escala);
+        lapiz.fillRect(1 * escala, 104 * escala, 10 * escala, 4 * escala);
+        lapiz.fillRect(0 * escala, 109 * escala, 2 * escala, 1 * escala);
+        lapiz.fillRect(60 * escala, 93 * escala, 6 * escala, 1 * escala);
+        lapiz.fillRect(60 * escala, 94 * escala, 7 * escala, 1 * escala);
+        lapiz.fillRect(60 * escala, 95 * escala, 8 * escala, 1 * escala);
+        lapiz.fillRect(60 * escala, 96 * escala, 10 * escala, 1 * escala);
+        lapiz.fillRect(60 * escala, 97 * escala, 12 * escala, 1 * escala);
+        lapiz.fillRect(70 * escala, 98 * escala, 3 * escala, 1 * escala);
+        lapiz.fillRect(70 * escala, 99 * escala, 5 * escala, 1 * escala);
+        lapiz.fillRect(70 * escala, 100 * escala, 6 * escala, 1 * escala);
+        lapiz.fillRect(70 * escala, 101 * escala, 8 * escala, 1 * escala);
+        lapiz.fillRect(70 * escala, 102 * escala, 9 * escala, 1 * escala);
+        lapiz.fillRect(17 * escala, 108 * escala, 10 * escala, 3 * escala);
+        lapiz.fillRect(21 * escala, 110 * escala, 10 * escala, 1 * escala);
+        lapiz.fillRect(24 * escala, 111 * escala, 10 * escala, 1 * escala);
+        lapiz.fillRect(29 * escala, 112 * escala, 8 * escala, 1 * escala);
+        lapiz.fillRect(31 * escala, 113 * escala, 5 * escala, 1 * escala);
+        lapiz.fillRect(29 * escala, 114 * escala, 5 * escala, 1 * escala);
+        lapiz.fillRect(16 * escala, 115 * escala, 15 * escala, 2 * escala);
+        lapiz.fillRect(48 * escala, 107  * escala, 6 * escala, 1 * escala);
+        lapiz.fillRect(51 * escala, 108 * escala, 5 * escala, 1 * escala);
+        lapiz.fillRect(54 * escala, 109 * escala, 5 * escala, 1 * escala);
+        lapiz.fillRect(56 * escala, 110 * escala, 6 * escala, 1 * escala);
+        lapiz.fillRect(61 * escala, 111 * escala, 1 * escala, 1 * escala);
+        lapiz.fillRect(54 * escala, 105 * escala, 5 * escala, 1 * escala);
+        lapiz.fillRect(59 * escala, 104 * escala, 3 * escala, 1 * escala);
+        lapiz.fillRect(62 * escala, 103 * escala, 4 * escala, 1 * escala);
+        lapiz.fillRect(65 * escala, 102 * escala, 14 * escala, 1 * escala);
+        lapiz.fillRect(11 * escala, 93 * escala, 40 * escala, 15 * escala);
+        lapiz.fillRect(20 * escala, 88 * escala, 41 * escala, 13 * escala);
+        lapiz.fillRect(29 * escala, 109 * escala, 16 * escala, 1 * escala);
+        lapiz.fillRect(30 * escala, 100 * escala, 16 * escala, 10 * escala);
+        lapiz.fillRect(27 * escala, 108 * escala, 12 * escala, 2 * escala);
+        lapiz.fillRect(33 * escala, 109 * escala, 3 * escala, 4 * escala);
+        lapiz.fillRect(40 * escala, 110 * escala, 1 * escala, 1 * escala);
+        lapiz.fillRect(36 * escala, 110 * escala, 2 * escala, 2 * escala);
+        lapiz.fillRect(51 * escala, 100 * escala, 3 * escala, 9 * escala);
+        lapiz.fillRect(54 * escala, 100 * escala, 5 * escala, 6 * escala);
+        lapiz.fillRect(59 * escala, 100 * escala, 3 * escala, 5 * escala);
+        lapiz.fillRect(62 * escala, 100 * escala, 3 * escala, 4 * escala);
+        lapiz.fillRect(65 * escala, 95 * escala, 6 * escala, 8 * escala);
+        lapiz.fillRect(59 * escala, 97 * escala, 9 * escala, 6 * escala);
+
+
 
         // rosa claro
         lapiz.setColor(new Color(239, 170, 176));
@@ -566,6 +679,7 @@ public class NightDrive extends JFrame implements ActionListener {
         lapiz.fillRect(76 * escala, 19 * escala, 1 * escala, 2 * escala);
         lapiz.fillRect(77 * escala, 20 * escala, 1 * escala, 2 * escala);
         lapiz.fillRect(78 * escala, 21 * escala, 1 * escala, 4 * escala);
+        lapiz.fillRect(83 * escala, 26 * escala, 1 * escala, 1 * escala);
 
         // blanco
         lapiz.setColor(Color.white);
@@ -578,11 +692,6 @@ public class NightDrive extends JFrame implements ActionListener {
         lapiz.fillRect(47 * escala, 124 * escala, 1 * escala, 1 * escala);
         lapiz.fillRect(61 * escala, 119 * escala, 2 * escala, 2 * escala);
         lapiz.fillRect(82 * escala, 108 * escala, 1 * escala, 1 * escala);
-        lapiz.fillRect(59 * escala, 100 * escala, 2 * escala, 1 * escala);
-        lapiz.fillRect(64 * escala, 100 * escala, 2 * escala, 1 * escala);
-        lapiz.fillRect(62 * escala, 97 * escala, 1 * escala, 2 * escala);
-        lapiz.fillRect(62 * escala, 102 * escala, 2 * escala, 1 * escala);
-        lapiz.fillRect(62 * escala, 103 * escala, 1 * escala, 1 * escala);
         lapiz.fillRect(44 * escala, 73 * escala, 2 * escala, 2 * escala);
         lapiz.fillRect(20 * escala, 71 * escala, 1 * escala, 2 * escala);
         lapiz.fillRect(20 * escala, 76 * escala, 1 * escala, 2 * escala);
@@ -602,7 +711,7 @@ public class NightDrive extends JFrame implements ActionListener {
         lapiz.fillRect(62 * escala, 45 * escala, 1 * escala, 2 * escala);
         lapiz.fillRect(62 * escala, 50 * escala, 1 * escala, 2 * escala);
         lapiz.fillRect(26 * escala, 29 * escala, 2 * escala, 1 * escala);
-        lapiz.fillRect(31 * escala, 31 * escala, 2 * escala, 1 * escala);
+        lapiz.fillRect(31 * escala, 29 * escala, 2 * escala, 1 * escala);
         lapiz.fillRect(28 * escala, 28 * escala, 3 * escala, 3 * escala);
         lapiz.fillRect(29 * escala, 26 * escala, 1 * escala, 2 * escala);
         lapiz.fillRect(29 * escala, 31 * escala, 1 * escala, 2 * escala);
@@ -611,5 +720,11 @@ public class NightDrive extends JFrame implements ActionListener {
         lapiz.fillRect(51 * escala, 9 * escala, 1 * escala, 2 * escala);
         lapiz.fillRect(51 * escala, 14 * escala, 1 * escala, 2 * escala);
         lapiz.fillRect(50 * escala, 11 * escala, 3 * escala, 3 * escala);
+        lapiz.fillRect(61 * escala, 99 * escala, 3 * escala, 3 * escala);
+        lapiz.fillRect(59 * escala, 100 * escala, 2 * escala, 1 * escala);
+        lapiz.fillRect(64 * escala, 100 * escala, 2 * escala, 1 * escala);
+        lapiz.fillRect(62 * escala, 97 * escala, 1 * escala, 2 * escala);
+        lapiz.fillRect(63 * escala, 102 * escala, 1 * escala, 1 * escala);
+        lapiz.fillRect(62 * escala, 102 * escala, 1 * escala, 2 * escala);
     }
 }
